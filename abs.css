@@ -1,0 +1,24 @@
+.cn {
+  background-image: url("abs/cn-bg.jpg");
+  text-transform: uppercase;
+  text-align: center;
+}
+.cn h1 {
+  font-weight: 900 !important;
+}
+.bgbread{
+  background-image: url("abs/breadcrumbbg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.breadcrumb a , .breadcrumb .active {
+  color: white !important;
+  text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  color: white !important;
+}
+.menu .row{
+  border-bottom: 5px solid rgba(164, 162, 162, 0.524);
+  padding: 10px;
+}
